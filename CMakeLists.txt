@@ -7,7 +7,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(algorithms src/algorithms.cpp)
 target_include_directories(algorithms PUBLIC include)
-
 target_compile_options(algorithms PRIVATE -Wall -Wextra -Wpedantic)
 
 add_executable(algorithms_demo examples/main.cpp)
