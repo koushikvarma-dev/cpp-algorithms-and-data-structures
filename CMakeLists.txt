@@ -12,7 +12,7 @@ target_compile_options(algorithms PRIVATE -Wall -Wextra -Wpedantic)
 add_executable(algorithms_demo examples/main.cpp)
 target_link_libraries(algorithms_demo PRIVATE algorithms)
 
-aadd_executable(algorithms_tests tests/test_algorithms.cpp)
+add_executable(algorithms_tests tests/test_algorithms.cpp)
 target_link_libraries(algorithms_tests PRIVATE algorithms)
 
 enable_testing()
